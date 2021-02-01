@@ -14,9 +14,9 @@ height = float(input("Please enter your height in centimetres: "))
 height /= 100
 
 # Calculate BMI using the formula weight(kg) / height(m)^2
-bmi = (weight / height ** 2)
+bmi = weight / (height ** 2)
 
 # Output BMI formatted to 2 decimal places
 # [ref] https://docs.python.org/3/library/string.html#format-specification-mini-language
-print("Your BMI is {:.2f}".format(bmi) + "." )
+print("Your BMI is {:.2f}".format(bmi))
 

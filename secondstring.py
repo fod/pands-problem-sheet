@@ -9,5 +9,5 @@ sentence = input("Please enter a sentence: ")
 # take a slice from the string, starting at the end and taking every second character
 output = sentence[::-2]
 
-# print the modified string to stdoutx
+# print the modified string to stdout
 print(output)

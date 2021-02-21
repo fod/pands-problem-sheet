@@ -7,10 +7,10 @@ from datetime import datetime
 
 #https://docs.python.org/3/library/datetime.html#datetime.date.today
 #https://docs.python.org/3/library/datetime.html#datetime.date.weekday
-today = datetime.today().weekday()
+today = datetime.today()
 
-print("Today is {}".format(datetime.today().strftime('%A')))
-if today in (5, 6):
+print("Today is {}".format(today.strftime('%A')))
+if today.weekday() in (5, 6):
     print("It is the weekend, yay!")
 else:
     print("Yes, unfortunately today is a weekday.")

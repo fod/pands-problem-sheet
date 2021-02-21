@@ -12,4 +12,9 @@
 
 ## [3. collatz.py](collatz.py)
 
-    Perform a series of calculations on a number depending on whether it is odd or even
+    Perform a series of calculations on a number depending on whether it is odd or even.
+
+
+## [4. weekday.py](weekday.py)
+
+    Inform the user whether or not today is a weekday.

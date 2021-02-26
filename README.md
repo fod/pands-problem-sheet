@@ -7,7 +7,7 @@
 
 ## [2. secondstring.py](secondstring.py)
 
-    A program that reverses a string an prints every second character.
+    A program that reverses a string and prints every second character.
 
 
 ## [3. collatz.py](collatz.py)
@@ -18,3 +18,8 @@
 ## [4. weekday.py](weekday.py)
 
     Inform the user whether or not today is a weekday.
+
+
+## [4. squareroot.py](squareroot.py)
+
+    Approximate the square root of any positive real number using Newton's method.

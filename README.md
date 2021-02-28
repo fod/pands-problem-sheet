@@ -23,3 +23,8 @@
 ## [4. squareroot.py](squareroot.py)
 
     Approximate the square root of any positive real number using Newton's method.
+
+
+## [5. es.py](es.py)
+
+    COunt the number of 'e's in a file.

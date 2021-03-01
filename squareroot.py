@@ -40,7 +40,7 @@ def sqrt(num, limit = 0.0000000001):
     # it provides the stopping condition for the while loop
     error = num
 
-    # We must use the absolute error as sometimes the result of x**2 - a < 0 
+    # We must use the absolute error as sometimes (x**2 - a) < 0 
     while abs(error) > limit:
 
         # Test the current estimate

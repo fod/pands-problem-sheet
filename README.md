@@ -27,4 +27,4 @@
 
 ## [5. es.py](es.py)
 
-    COunt the number of 'e's in a file.
+    Count the number of 'e's in a file.

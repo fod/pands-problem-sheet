@@ -21,5 +21,18 @@ plt.plot(x, x**3, label = "f(x) = $x^3$")
 # Add legend using the labels specified in the plot() arguments
 plt.legend()
 
+# Add plot title
+plt.title("Some Functions of x")
+
+# Add axis labels
+plt.xlabel("x")
+plt.ylabel("f(x)")
+
+# Only whole number ticks on the x-axis
+plt.xticks(np.arange(0, 5, step=1))
+
+# Add faint dotted gridlines
+plt.grid(linestyle='--', color="lightgray")
+
 # Display the plot
 plt.show()

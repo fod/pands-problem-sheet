@@ -13,9 +13,13 @@ import numpy as np
 x = np.linspace(0,4,100)
 
 # Plot the three functions
-plt.plot(x, x)
-plt.plot(x, x**2)
-plt.plot(x, x**3)
+# https://stackoverflow.com/questions/21226868/superscript-in-python-plots
+plt.plot(x, x, label = "f(x) = x")
+plt.plot(x, x**2, label = "f(x) = $x^2$")
+plt.plot(x, x**3, label = "f(x) = $x^3$")
+
+# Add legend using the labels specified in the plot() arguments
+plt.legend()
 
 # Display the plot
 plt.show()

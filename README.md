@@ -28,3 +28,8 @@
 ## [5. es.py](es.py)
 
     Count the number of 'e's in a file.
+
+
+## [6. plottask.py](plottask.py)
+
+    Plot three functions using matplotlib.

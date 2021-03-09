@@ -12,7 +12,7 @@
 
 ## [3. collatz.py](collatz.py)
 
-    Perform a series of calculations on a number depending on whether it is odd or even.
+    Test the Collatz conjecture on any positive integer provided by the user.
 
 
 ## [4. weekday.py](weekday.py)
